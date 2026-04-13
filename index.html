@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder - Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>JobFinder</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Find Your Dream Job Today</h2>
+                <p>Discover thousands of job opportunities from top companies worldwide</p>
+                
+                <div class="search-container">
+                    <form class="search-form">
+                        <div class="search-group">
+                            <input type="text" placeholder="Job title, keywords, or company" class="search-input">
+                            <input type="text" placeholder="Location or remote" class="search-input">
+                            <button type="submit" class="search-btn">Search Jobs</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="quick-filters">
+                    <span class="filter-tag">Remote</span>
+                    <span class="filter-tag">Full-time</span>
+                    <span class="filter-tag">Part-time</span>
+                    <span class="filter-tag">Contract</span>
+                    <span class="filter-tag">Internship</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Popular Categories</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="category-icon">Technology</div>
+                        <h3>Technology</h3>
+                        <p>1,234 jobs</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">Business</div>
+                        <h3>Business</h3>
+                        <p>856 jobs</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">Design</div>
+                        <h3>Design</h3>
+                        <p>432 jobs</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">Marketing</div>
+                        <h3>Marketing</h3>
+                        <p>678 jobs</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">Healthcare</div>
+                        <h3>Healthcare</h3>
+                        <p>543 jobs</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">Education</div>
+                        <h3>Education</h3>
+                        <p>321 jobs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jobs" class="featured-jobs">
+            <div class="container">
+                <h2>Featured Jobs</h2>
+                <div class="job-listings">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-info">
+                                <h3>Senior Frontend Developer</h3>
+                                <p class="company-name">TechCorp Solutions</p>
+                            </div>
+                            <div class="job-type">Full-time</div>
+                        </div>
+                        <div class="job-details">
+                            <p class="location">San Francisco, CA</p>
+                            <p class="salary">$120k - $160k</p>
+                        </div>
+                        <p class="job-description">We're looking for an experienced frontend developer to join our growing team and help build amazing user experiences.</p>
+                        <div class="job-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-info">
+                                <h3>UX Designer</h3>
+                                <p class="company-name">Creative Agency</p>
+                            </div>
+                            <div class="job-type">Remote</div>
+                        </div>
+                        <div class="job-details">
+                            <p class="location">Remote</p>
+                            <p class="salary">$80k - $110k</p>
+                        </div>
+                        <p class="job-description">Join our design team to create beautiful and intuitive user interfaces for our clients' digital products.</p>
+                        <div class="job-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-info">
+                                <h3>Marketing Manager</h3>
+                                <p class="company-name">Global Marketing Co.</p>
+                            </div>
+                            <div class="job-type">Full-time</div>
+                        </div>
+                        <div class="job-details">
+                            <p class="location">New York, NY</p>
+                            <p class="salary">$90k - $130k</p>
+                        </div>
+                        <p class="job-description">Lead our marketing initiatives and help grow our brand presence across multiple channels.</p>
+                        <div class="job-tags">
+                            <span class="tag">Digital Marketing</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="company-info">
+                                <h3>Data Scientist</h3>
+                                <p class="company-name">DataTech Inc.</p>
+                            </div>
+                            <div class="job-type">Contract</div>
+                        </div>
+                        <div class="job-details">
+                            <p class="location">Austin, TX</p>
+                            <p class="salary">$100k - $140k</p>
+                        </div>
+                        <p class="job-description">Apply your machine learning expertise to solve complex business problems and drive data-driven decisions.</p>
+                        <div class="job-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Statistics</span>
+                        </div>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+                <div class="load-more">
+                    <button class="load-more-btn">Load More Jobs</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Why Choose JobFinder?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">Targeted Search</div>
+                        <h3>Targeted Search</h3>
+                        <p>Find jobs that match your skills and preferences with our advanced search filters.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">Quick Applications</div>
+                        <h3>Quick Applications</h3>
+                        <p>Apply to multiple jobs quickly with our streamlined application process.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">Career Growth</div>
+                        <h3>Career Growth</h3>
+                        <p>Access resources and tools to help you advance your career and reach your goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JobFinder</h3>
+                    <p>Your trusted partner in finding the perfect job opportunity.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#jobs">Jobs</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@jobfinder.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JobFinder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
